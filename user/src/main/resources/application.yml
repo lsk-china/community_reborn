@@ -1,0 +1,25 @@
+server:
+  port: 10001
+spring:
+  application:
+    name: user
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+  datasource:
+    url: jdbc:mysql://localhost:3306/community_auth
+    username: root
+    password: lsk123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+common:
+  redis:
+    host: localhost
+    port: 6379
+    database: 2
+    password: lsk123456
+  debug:
+    enabled: true
+logging:
+  level:
+    com.lsk.community.back.common.authz.holder: DEBUG
+    com.lsk.community.back.common.response.holder: DEBUG
