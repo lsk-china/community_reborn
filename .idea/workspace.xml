@@ -5,22 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a72bf605-d903-4cb9-ae80-2026b7c63531" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-redis/src/main/java/com/lsk/community/common/redis/RedisAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-redis/src/main/java/com/lsk/community/common/redis/RedisComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-redis/src/main/java/com/lsk/community/common/redis/RedisProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/lsk/community/user/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dymanic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/src/main/java/com/lsk/community/reborn/file/FileApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/lsk/community/user/controller/AuthcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/lsk/community/user/controller/CollectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/lsk/community/user/controller/PMController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/lsk/community/user/controller/RelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/lsk/community/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/lsk/community/user/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f926d640-f8c6-4e67-a286-b007d5d2e840.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f926d640-f8c6-4e67-a286-b007d5d2e840/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f926d640-f8c6-4e67-a286-b007d5d2e840/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f926d640-f8c6-4e67-a286-b007d5d2e840/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f926d640-f8c6-4e67-a286-b007d5d2e840/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +58,11 @@
         <option name="userSettingsFile" value="/opt/maven/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2EthL5PRxVjiY3BDOIXTtrThctI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -67,10 +79,22 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "297bc95759d2b43e25bdf3925b1b57b7",
+    "spring.configuration.checksum": "a9b77eb682c106414717ea8faa3d5059",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -91,7 +115,9 @@
       <workItem from="1664771972366" duration="194000" />
       <workItem from="1667657603546" duration="2423000" />
       <workItem from="1667735496054" duration="83000" />
-      <workItem from="1672579964981" duration="300000" />
+      <workItem from="1672579964981" duration="913000" />
+      <workItem from="1672580974194" duration="2115000" />
+      <workItem from="1672669353034" duration="713000" />
     </task>
     <servers />
   </component>
